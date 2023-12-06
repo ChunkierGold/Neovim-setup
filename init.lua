@@ -1,0 +1,2 @@
+require("luke")
+print("hello")
