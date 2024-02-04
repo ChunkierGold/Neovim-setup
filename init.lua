@@ -1,2 +1,1 @@
 require("luke")
-print("hello")
