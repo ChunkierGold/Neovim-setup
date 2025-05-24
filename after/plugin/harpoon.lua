@@ -6,7 +6,7 @@ harpoon:setup()
 
 --vim.keymap.set("n", "<leader>a", mark.add_file)
 --vim.keymap.set("n", "C-e", ui.toggle_quick_menu2)
-vim.keymap.set("n", "<leader>a", function() harpoon:list():append() end)
+vim.keymap.set("n", "<leader>a", function() harpoon:list():add() end)
 vim.keymap.set("n", "<C-e>", function() harpoon.ui:toggle_quick_menu(harpoon:list()) end)
 
 vim.keymap.set("n", "<C-u>", function() harpoon:list():select(1) end)
